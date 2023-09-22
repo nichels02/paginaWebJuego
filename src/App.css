@@ -1,13 +1,12 @@
 /* Add this CSS to your stylesheets or use a CSS-in-JS solution like styled-components */
 
 .centered-container {
-  position: absolute;
-  top:50%;
-  left:50%;
-  transform: translate(-50%,-50%);
+  position: relative;
+
   background-color: #333; /* Change to your preferred background color */
   color: #fff; /* Change to your preferred text color */
 }
+
 
 .centered-content {
   text-align: center;
@@ -21,7 +20,7 @@
 .centered-unity {
   width: 800px;
   height: 600px;
-  border: 2px solid #d51818; /* Add a border to the Unity component */
+  border: 2px solid #d70b0b; /* Add a border to the Unity component */
   border-radius: 10px; /* Add border radius for a cooler look */
-  box-shadow: 0 0 10px rgb(236, 193, 29); /* Add a subtle shadow */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
 }
