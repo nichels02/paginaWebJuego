@@ -18,7 +18,7 @@ function Game(){
             <div className="centered-content">
                 <h1 className="centered-title">lluvia acida</h1>
                 <Unity unityProvider={unityProvider} className="centered-unity" />
-                <button onClick={handleClickSpawn}>Spawn Enemies</button>
+                <button onClick={handleClickSpawn}>Invencible</button>
             </div>
         </div>
     );
