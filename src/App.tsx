@@ -7,6 +7,7 @@ import MainNav from "./common/MainNav.tsx";
 import Home from "./pages/Home.tsx";
 import Game from "./pages/Game.tsx";
 import Game2 from "./pages/Game2.tsx";
+import Game3 from "./pages/Game3.tsx";
 
 function App() {
     return(
@@ -18,6 +19,7 @@ function App() {
                     <Route path='/' element={<Home/>}/>
                     <Route path='/Game' element={<Game/>}/>
                     <Route path='/Game2' element={<Game2/>}/>
+                    <Route path='/Game3' element={<Game3/>}/>
                 </Routes>
                 <MainFooter/>
             </BrowserRouter>
