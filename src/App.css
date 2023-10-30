@@ -39,3 +39,11 @@
   border-radius: 10px; /* Add border radius for a cooler look */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
 }
+
+.centered-unity4-login {
+  width: 800px;
+  height:500px;
+  border: 2px solid #d70b0b; /* Add a border to the Unity component */
+  border-radius: 10px; /* Add border radius for a cooler look */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+}
