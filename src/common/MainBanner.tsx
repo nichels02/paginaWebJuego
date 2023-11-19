@@ -1,6 +1,7 @@
 import banner1 from '../assets/images/1-5.png';
 import banner2 from '../assets/images/2I5UJX5GJZDDLF347SLBC4USRM.png';
 import banner3 from '../assets/images/kratos-y-atreus-en-god-of-war-ragnaroek.png';
+import banner4 from '../assets/images/lluvia_de_acido.png';
 function MainBanner() {
     return (
         <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
@@ -9,6 +10,7 @@ function MainBanner() {
                         aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
             </div>
             <div className="carousel-inner">
                 <div className="carousel-item active">
@@ -27,6 +29,13 @@ function MainBanner() {
                 </div>
                 <div className="carousel-item">
                     <img src={banner3} className="d-block w-100" alt="..."/>
+                    <div className="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+                <div className="carousel-item">
+                    <img src={banner4} className="d-block w-100" alt="..."/>
                     <div className="carousel-caption d-none d-md-block">
                         <h5>Third slide label</h5>
                         <p>Some representative placeholder content for the third slide.</p>
