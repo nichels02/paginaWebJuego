@@ -24,15 +24,11 @@ function MainNav(){
                     </li>
 
                     <li className="nav1-item">
-<<<<<<< Updated upstream
-                        <Link className="nav-link" to="/login">Login/Register</Link>
-=======
                         <Link className="nav-link" to="/game4">Game4</Link>
                     </li>
 
                     <li className="nav2-item">
                         <Link className="nav-link" to="/login">Login</Link>
->>>>>>> Stashed changes
                     </li>
                 </ul>
 
