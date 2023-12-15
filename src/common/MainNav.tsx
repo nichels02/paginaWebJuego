@@ -11,20 +11,20 @@ function MainNav(){
                     </li>
 
                     <li className="nav1-item">
-                        <Link className="nav-link" to="/game">Game</Link>
+                        <Link className="nav-link" to="/game">Lluvia acida</Link>
                     </li>
 
 
                     <li className="nav1-item">
-                        <Link className="nav-link" to="/game2">Game2</Link>
+                        <Link className="nav-link" to="/game2">Memoria</Link>
                     </li>
 
                     <li className="nav1-item">
-                        <Link className="nav-link" to="/game3">Game3</Link>
+                        <Link className="nav-link" to="/game3">Kahoot</Link>
                     </li>
 
                     <li className="nav1-item">
-                        <Link className="nav-link" to="/game4">Game4</Link>
+                        <Link className="nav-link" to="/game4">Dino-Run</Link>
                     </li>
 
                     <li className="nav2-item">

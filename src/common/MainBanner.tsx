@@ -1,4 +1,4 @@
-import banner1 from '../assets/images/lluvia_de_acido.png';
+import banner1 from '../assets/images/Captura.png';
 import banner2 from '../assets/images/kratos-y-atreus-en-god-of-war-ragnaroek.png';
 import banner3 from '../assets/images/2I5UJX5GJZDDLF347SLBC4USRM.png';
 import banner4 from '../assets/images/1-5.png';

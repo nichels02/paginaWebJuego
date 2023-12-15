@@ -3,9 +3,9 @@ import { Unity, useUnityContext } from "react-unity-webgl";
 function Game2(){
     const { unityProvider,sendMessage } = useUnityContext({
         loaderUrl: "/game2.loader.js",
-        dataUrl: "/game2.data",
-        frameworkUrl: "/game2.framework.js",
-        codeUrl: "/game2.wasm",
+        dataUrl: "/game2.data.unityweb",
+        frameworkUrl: "/game2.framework.js.unityweb",
+        codeUrl: "/game2.wasm.unityweb",
     });
 
     function handleClickSpawn()
